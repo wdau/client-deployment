@@ -32,7 +32,7 @@ function App() {
             <span>{completedCount} complete</span>
             <span>{todos.length} total</span>
           </div>
-       
+        </header>
 
         <form className="todo-form" onSubmit={handleSubmit}>
           <label>
